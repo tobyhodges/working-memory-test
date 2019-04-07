@@ -3,7 +3,7 @@ const ReactDOM = require('react-dom')
 
 const createLayout = () => {
   ReactDOM.render(
-    <p>words will appear here after the test has begun</p>,
+    <p>words will appear here after the test has begun...</p>,
     document.getElementById("app")
 )
   ReactDOM.render(
@@ -16,7 +16,7 @@ const createLayout = () => {
   )
   ReactDOM.render(
     <div>
-    <p className="infoText">This site provides a simple test designed to measure the participant's working memory. The test is divided into two parts. During the first part of the test, you will be shown a number of words at short intervals. Try to remember as many of the words shown as possible, <strong>without writing any of them down</strong>. Only after the test is finished, write down a list as all the words that youkjbkjb can remember being shown. You will be given further information before starting the second part of the test.</p>
+    <p className="infoText">This site provides a simple test designed to measure the participant's working memory. The test is divided into two parts. During the first part of the test, you will be shown a number of words at short intervals. Try to remember as many of the words shown as possible, <strong>without writing any of them down</strong>. Only after the test is finished, write down a list as all the words that you can remember being shown. You will be given further information before starting the second part of the test.</p>
     <p  className="infoText">To begin, press the <strong>Start Part 1</strong> button above. You will be given a short countdown before the first word appears.</p>
     </div>,
     document.getElementById("info")
