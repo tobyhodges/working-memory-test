@@ -1,11 +1,77 @@
+/* whole page */
+
+body {
+  background-color: #;
+  margin: 5% 15%;
+  width: 70%
+}
+
 h1,h2,h3,h4 {
   font-family: sans-serif;
   font-weight: bold;
-  color: firebrick;
+  color: #004d80;
+  padding: 0px 0px 30px 0px;
 }
 
-p.term {
-  font-size: "24 pt";
-  color: "#444444";
+p {
   font-family: sans-serif;
+}
+
+/* app */
+div#app {
+  border-radius: 25px;
+  border-style: solid;
+  border-width: thick;
+  border-color: #004d80;
+  background-color: #ccebff;
+  padding: 5%;
+  width: 65%;
+  height: 160px;
+  margin: 0% 15%;
+  text-align: center;
+  vertical-align: center;
+}
+div#app > p {
+  font-style: italic;
+  font-size: 2rem;
+  color: #666;
+}
+div#app > p.term {
+  font-size: 3.5rem;
+  color: #444;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* buttons */
+
+div#buttonBox {
+  width: 60%;
+  margin: 0% 15%;
+  padding: 10px;
+}
+div#buttons > button {
+  font-size: 1.2rem;
+  margin: 10px;
+  padding: 6px 8px;
+  display: inline-block;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: medium;
+}
+button[name="resetButton"] {
+  border-color: #ff4000;
+  background-color: #ff9f80;
+}
+button[name="startButton1"] {
+  border-color: #29a329;
+  background-color: #adebad;
+}
+button[name="startButton2"] {
+  border-color: #29a329;
+  background-color: #adebad;
+}
+button[disabled] {
+  border-color: #bbb;
+  background-color: #ddd;
 }
