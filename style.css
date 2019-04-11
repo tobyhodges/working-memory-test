@@ -1,16 +1,17 @@
 /* whole page */
 
-body {
-  background-color: #;
-  margin: 5% 15%;
-  width: 70%
+div#content {
+  width: 800px;
+  margin: 0% 10%;
+  background-color: #ffffff;
+  height: 800px;
 }
 
 h1,h2,h3,h4 {
   font-family: sans-serif;
   font-weight: bold;
   color: #004d80;
-  padding: 0px 0px 30px 0px;
+  padding: 0px 0px 20px 0px;
 }
 
 p {
@@ -25,9 +26,9 @@ div#app {
   border-color: #004d80;
   background-color: #ccebff;
   padding: 5%;
-  width: 65%;
+  width: 600px;
   height: 160px;
-  margin: 0% 15%;
+  margin: 0% 5%;
   text-align: center;
   vertical-align: center;
 }
@@ -46,7 +47,7 @@ div#app > p.term {
 /* buttons */
 
 div#buttonBox {
-  width: 60%;
+  width: 500px;
   margin: 0% 15%;
   padding: 10px;
 }
